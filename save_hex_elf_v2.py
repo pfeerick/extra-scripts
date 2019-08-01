@@ -1,3 +1,7 @@
+# Written by dsb
+# Source: https://community.platformio.org/t/using-extra-scripts-to-save-files-to-directory-specified-in-platformio-ini-environment/8981/2
+# Reads 'savepath' parameter in platformio.ini for output path
+
 try:
     import configparser
 except ImportError:
